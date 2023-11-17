@@ -2,6 +2,6 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route("/second")
+@app.route("/first")
 def main():
-    return "This is the second API!"
+    return "This is the first API, but we're using something else!"

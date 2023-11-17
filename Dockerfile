@@ -5,4 +5,4 @@ COPY requirements.txt /srv
 RUN python -m pip install -r requirements.txt
 
 COPY . /srv
-ENTRYPOINT ["python", "-m", "flask", "--app", "app", "run", "--host", "0.0.0.0", "--port", "5001"]
+ENTRYPOINT ["python", "-m", "flask", "--app", "app", "run", "--host", "0.0.0.0", "--port", "5000"]
